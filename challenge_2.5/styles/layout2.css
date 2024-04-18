@@ -1,0 +1,282 @@
+@charset "utf-8";
+
+/*
+   Sloth Site Style Sheet
+
+   Filename:         layout1.css
+*/
+
+/*HTML and Body Styles*/
+
+html {
+    font-family: "Herculanum", Geneva, sans-serif;
+    height: 100%;
+}
+
+body {
+    line-height: 2em;
+    margin: 0 auto;
+    max-width: 1400px;
+    min-width: 320px;
+    width: 100%;
+}
+
+/*Header Styles*/
+
+header {
+    background-color: #17173f;
+    color: white;
+    height: 200px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    padding-top: 80px;
+    text-align: center;
+}
+
+
+/*Navigation Styles*/
+
+nav {
+    padding-bottom: 30px;
+}
+
+nav li {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    float: left;
+    margin: auto;
+    padding: 20px;
+    width: 50%;
+    height: 4.5rem;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+/*All Section Styles*/
+
+div section div img {
+    margin-bottom: 30px
+}
+
+div section h2 {
+    font-size: 2em;
+    margin: 20px 0;
+    padding: 20px 0;
+}
+
+div section div p {
+    margin-bottom: 30px;
+    padding: 15px;
+    text-align: justify;
+}
+
+/*Section 1 Styles*/
+
+#section_1 h2 {
+    color: steelblue;
+    border-bottom: 4px solid steelblue;
+    border-top: 4px solid steelblue;
+    padding: 20px 0;
+    text-align: left;
+    width: 100%;
+    /*margin-bottom: 50px;*/
+}
+
+#section_1 img {
+    border: 8px solid steelblue;
+    filter: drop-shadow(8px 8px 10px steelblue);
+    float: left;
+    margin-left: 5%;
+    width: 30%;
+}
+
+#section_1 img:hover {
+    filter: drop-shadow(14px 14px 15px steelblue);
+}
+
+#section_1 p {
+    border: 8px solid steelblue;
+    filter: drop-shadow(8px 8px 15px steelblue);
+    float: right;
+    margin-right: 7%;
+    width: 40%;
+}
+
+#section_1 p:hover {
+    filter: drop-shadow(14px 14px 15px steelblue);
+}
+
+/*Section 2 Styles*/
+
+#section_2 {
+    clear: both;
+}
+
+#section_2 h2 {
+    border-bottom: 4px solid darkred;
+    border-top: 4px solid darkred;
+    color: darkred;
+    padding: 20px 0;
+    text-align: right;
+    width: 100%;
+}
+
+#section_2 img {
+    border: 8px solid darkred;
+    filter: drop-shadow(8px 8px 15px darkred);
+    float: left;
+    width: 30%;
+}
+
+#section_2 img:hover {
+    filter: drop-shadow(14px 14px 15px darkred);
+}
+
+#section_2 p {
+    border: 8px solid darkred;
+    filter: drop-shadow(8px 8px 15px darkred);
+    float: right;
+    margin-top: 50px;
+    width: 60%;
+}
+
+#section_2 p:hover {
+    filter: drop-shadow(14px 14px 15px darkred);
+}
+
+/*Section 3 Styles*/
+
+#section_3 {
+    clear: both;
+}
+
+#section_3 h2 {
+    border-bottom: 4px solid darkslategray;
+    border-top: 4px solid darkslategray;
+    color: darkslategray;
+    padding: 20px 0;
+    text-align: left;
+    width: 100%;
+    /*font-size: 3em;*/
+}
+
+#section_3 img {
+    border: 8px solid darkslategray;
+    filter: drop-shadow(8px 8px 15px darkslategray);
+    float: left;
+    margin-left: 10%;
+    width: 35%;
+}
+
+#section_3 img:hover {
+    filter: drop-shadow(14px 14px 15px darkslategray);
+}
+
+#section_3 p {
+    border: 8px solid darkslategray;
+    filter: drop-shadow(8px 8px 15px darkslategray);
+    float: right;
+    margin-right: 20%;
+    width: 20%;
+}
+
+#section_3 p:hover {
+    filter: drop-shadow(14px 14px 15px darkslategray);
+}
+
+/*Section 4 Styles*/
+
+#section_4 {
+    clear: both;
+}
+
+#section_4 h2 {
+    border-bottom: 4px solid darkorange;
+    border-top: 4px solid darkorange;
+    color: darkorange;
+    padding: 20px 0;
+    text-align: right;
+    width: 100%;
+}
+
+#section_4 img {
+    border: 8px solid darkorange;
+    filter: drop-shadow(8px 8px 15px darkorange);
+    float: left;
+    margin-left: 35%;
+    width: 30%;
+}
+
+#section_4 img:hover {
+    filter: drop-shadow(14px 14px 15px darkorange);
+}
+
+#section_4 p {
+    border: 8px solid darkorange;
+    filter: drop-shadow(8px 8px 15px darkorange);
+    float: right;
+    width: 30%;
+}
+
+#section_4 p:hover {
+    filter: drop-shadow(14px 14px 15px darkorange);
+}
+
+/*Section 5 Styles*/
+
+#section_5 {
+    clear: both;
+}
+
+#section_5 h2 {
+    border-bottom: 4px solid rebeccapurple;
+    border-top: 4px solid rebeccapurple;
+    color: rebeccapurple;
+    padding: 20px 0;
+    text-align: left;
+    width: 100%;
+}
+
+
+#section_5 p {
+    border: 8px solid rebeccapurple;
+    filter: drop-shadow(8px 8px 15px rebeccapurple);
+    float: right;
+    width: 60%;
+
+}
+
+#section_5 p:hover {
+    filter: drop-shadow(14px 14px 15px rebeccapurple);
+}
+
+/*Image Styles*/
+
+#section_5 img {
+    border: 8px solid rebeccapurple;
+    filter: drop-shadow(8px 8px 15px rebeccapurple);
+    float: left;
+    width: 30%;
+
+}
+
+#section_5 img:hover {
+    filter: drop-shadow(14px 14px 15px rebeccapurple);
+}
+
+/*Footer Styles*/
+
+footer {
+    border-bottom: 4px solid rebeccapurple;
+    border-top: 4px solid rebeccapurple;
+    clear: both;
+    height: 3rem;
+    text-align: center;
+}

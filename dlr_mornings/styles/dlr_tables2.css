@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+/*
+
+   Tables Style Sheet
+   Author: Laura Coombs
+   Date:   23 March 2024
+
+   Filename:         dlr_tables2.css
+
+*/
+
+/* Table Styles */
+
+table.morningSchedule {
+    border: 15px outset rgb(151, 151, 151);
+    border-collapse: collapse;
+    font-family: Arial, Veranda, sans-serif;
+    width: 100%;
+}
+
+table.morningSchedule th, table.morningSchedule td {
+    border: 1px solid rgb(128,128,128);
+    padding: 5px;
+    vertical-align: top;
+}
+
+/* Table Caption Styles */
+
+table.morningSchedule caption {
+    caption-side: bottom;
+    text-align: center;
+}
+
+/* Table Column Styles */
+
+col.timeColumn {
+    width: 10%;
+    background-color: rgb(215, 205, 151);
+}
+
+col.wDayColumns {
+    width: 11%;
+    background-color: rgb(236, 255, 211);
+}
+
+col.wEndColumns {
+    width: 17%;
+    background-color: rgb(255, 231, 255);
+}
+/* Table Header Styles */
+
+table.morningSchedule thead {
+    background: rgb(105, 177, 60);
+    color: white;
+}
+
+table.morningSchedule thead th:first-of-type {
+    background: rgb(153, 86, 7);
+}
+
+table.morningSchedule thead th:nth-of-type(7), table.morningSchedule thead th:nth-of-type(8) {
+    background: rgb(153, 0, 153);
+}
+
+table.morningSchedule thead tr {
+    height: 25px;
+}
+
+
+
+/* Table Footer Styles */
+
+table.morningSchedule tfoot {
+    background: black;
+    color: white;
+}
+
+

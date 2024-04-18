@@ -1,0 +1,211 @@
+@charset "utf-8";
+
+
+/*
+
+   Portfolio Style Sheet
+   Author: Laura Coombs
+   Date: March 2024
+
+   Filename: styles.css
+
+*/
+
+/* HTML and Body Styles */
+
+html {
+    /*background-color: rgb(59, 87, 68);*/
+    background: radial-gradient(rgba(188, 208, 176, 0.85), rgba(59, 87, 68, 0.85), rgba(38, 65, 50, 0.85));
+}
+
+body {
+    color: rgb(255, 255, 255);
+    /*background-color: rgba(133, 145, 123, 0.5);*/
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+/* Header Styles */
+
+h2 {
+    font-size: 1.75rem;
+    text-shadow: rgb(199, 158, 120) 2px 2px 5px;
+}
+
+header > img {
+    width: 100%;
+}
+
+.image-container {
+    display: inline-block;
+    position: relative;
+}
+
+.perspective {
+    perspective: 600px;
+}
+.image-container img {
+    opacity: .65;
+    display: block;
+    height: auto;
+    width: 100%;
+    filter: saturate(1.5);
+}
+
+.overlay-text {
+    font-size: 4rem;
+    font-variant: small-caps;
+    left: 50%;
+    padding: 10px 20px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* Article */
+
+div#page-headers {
+    border-color: rgb(87, 59, 87);
+    border-style: double;
+    border-width: 4px;
+    margin: 10px 30px;
+    padding: 10px 0 10px 0;
+    text-align: center;
+}
+
+article > div.frame-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+div.frame {
+    /*background-color: rgb(87, 59, 87);*/
+    background: linear-gradient(160deg, rgb(87, 59, 87) 30%, rgb(197, 140, 197) 45%, rgb(87, 59, 87) 65%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    padding: 10px;
+    width: 30%;
+}
+
+div.frame-container {
+    text-align: center;
+}
+
+div.frame-container li {
+    list-style-type: circle;
+    text-align: left;
+}
+
+div.frame-container img {
+    height: 410px;
+    width: 90%;
+}
+
+div#pizza-links > a > img {
+    margin: 6rem 0;
+    height: 220px;
+    width: 40%;
+}
+
+.image-border {
+    border-style: solid;
+    border-width: 25px;
+    border-image: url("../images/tb_border.png") 40 stretch;
+}
+
+div.frame-container p.topics {
+    font-style: italic;
+    line-height: 2.5;
+    margin: 0;
+}
+
+div.frame-container > p.comments {
+    height: 6rem;
+    font-size: .8rem;
+    clear: both;
+    background: url(../images/speckled-background.jpg) 100% / cover no-repeat padding-box;
+    background-position: center;
+    border: 4px double rgb(199, 158, 120);
+    padding: 5px 0;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    color: black;
+    font-family: Verdana, Geneva, sans-serif;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+div.frame-container > p.date {
+    font-style: italic;
+}
+
+article > div > div > div > h2 > a:link,
+article > div > div > div > h2 > a:visited {
+    color: rgb(255, 255, 255);
+    font-variant: small-caps;
+    text-decoration: none;
+}
+
+article > div > div > div > h2 > a:active,
+article > div > div > div > h2 > a:hover {
+    color: rgb(199, 158, 120);
+    font-variant: small-caps;
+    text-decoration: none;
+    text-shadow: white 1px 1px 2px;
+}
+
+/* Navigation Styles */
+
+nav {
+    display: table;
+    width: 100%;
+    margin: 0 auto;
+    float: none;
+}
+
+nav ul {
+    display: table-row;
+    margin: 0;
+}
+
+nav ul li {
+    background-color: rgb(87, 59, 87);
+    color: rgb(255, 255, 255);
+    display: table-cell;
+    font-size: 1.5rem;
+    justify-content: center;
+    margin-right: 2%;
+    padding: 5px 0;
+    text-align: center;
+    text-transform: capitalize;
+    width: 25%;
+}
+
+nav > ul > li > a:link,
+nav > ul > li > a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+nav > ul > li > a:active,
+nav > ul > li > a:hover {
+    color: rgb(199, 158, 120);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* List Styles */
+
+
+
+/* Footer Styles */
+
+body > footer {
+    background-color: rgb(87, 59, 87);
+    color: rgba(255, 255, 255, 0.7);
+    padding: 10px 0;
+    text-align: center;
+}
+

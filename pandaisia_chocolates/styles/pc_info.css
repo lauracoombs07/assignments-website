@@ -1,0 +1,95 @@
+@charset "utf-8";
+/*
+
+   Positioning Styles for the pc_info.html file
+   Author: Laura Coombs
+   Date:   22 March 2024
+
+   Filename: pc_info.css
+
+*/
+
+div.infobox {
+    display: none;
+}
+
+/* Main Styles */
+main {
+    position: relative;
+    height: 450px;
+    width: 100%;
+    overflow: auto;
+}
+
+/* Infographic Styles */
+
+div.infobox {
+    position: absolute;
+}
+
+
+/* First Infographic */
+
+
+div#info1 {
+    display: block;
+    left: 5%;
+    top: 20px;
+}
+
+/* Second Infographic */
+
+div#info2 {
+    display: block;
+    left: 42%;
+    top: 185px;
+}
+
+/* Third Infographic */
+
+div#info3 {
+    display: block;
+    left: 75%;
+    top: 135px;
+}
+
+/* Fourth Infographic */
+
+div#info4 {
+    display: block;
+    left: 8%;
+    top: 510px;
+}
+
+/* Fifth Infographic */
+
+div#info5 {
+    display: block;
+    left: 3%;
+    top: 800px;
+}
+
+/* Sixth Infographic */
+
+div#info6 {
+    display: block;
+    left: 48%;
+    top: 600px;
+}
+
+/* Seventh Infographic */
+
+div#info7 {
+    display: block;
+    left: 68%;
+    top: 1000px;
+}
+
+/* Eighth Infographic */
+
+div#info8 {
+    display: block;
+    left: 12%;
+    top: 1100px;
+}
+

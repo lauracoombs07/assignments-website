@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+
+div.frame-container img {
+    height: 100px;
+    width: 120px;
+    filter: saturate(1.5);
+}
+
+div.frame-container div.row-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 80px;
+}
+
+#graphic-intro {
+    /*clear: both;*/
+    /*background-color: rgba(255, 253, 253, 0.85);*/
+    margin-top: 70px;
+    /*border: 4px double rgb(199, 158, 120);*/
+    /*padding: 30px 0;*/
+    /*border-bottom-left-radius: 15px;*/
+    /*border-top-right-radius: 15px;*/
+    /*color: black;*/
+    /*font-family: Verdana, Geneva, sans-serif;*/
+    /*box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);*/
+}
+
+div.frame-container div.row-content a:first-of-type {
+    float: left;
+}
+
+div.frame-container div.row-content a:nth-of-type(2):link,
+div.frame-container div.row-content a:nth-of-type(2):visited {
+    text-decoration: none;
+    color: white;
+}
+
+div.frame-container div.row-content a:nth-of-type(2):active,
+div.frame-container div.row-content a:nth-of-type(2):hover {
+    text-decoration: none;
+    color: rgb(96, 140, 110);
+}
+
+
+/* links */
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+
+a:active, a:hover {
+    color: rgb(96, 140, 110);
+}
+
+#pet-competition img {
+    height: 500px;
+    width: 90%;
+    filter: saturate(0.9);
+}
+
+#komatsu_link {
+    /*float: left;*/
+    /*padding-left: 20px;*/
+    padding: 50px 20px;
+}
+
+#komatsu_link > img {
+    margin: 40px 0;
+    height: 200px;
+    width: 220px;
+    transform: rotate(-30deg);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+#ferris_link {
+    /*float: right;*/
+}
+
+#ferris_link > img {
+    height: 200px;
+    width: 220px;
+    transform: rotate(20deg) scale(1.1);
+    box-shadow: 5px -5px 5px 5px rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,88 @@
+/*HTML and Body Styles*/
+
+html {
+    background: rgb(107, 71, 107);
+    font-family: Verdana, Geneva, sans-serif;
+    height: 100%;
+}
+
+body {
+    background-color: white;
+    box-shadow: rgb(51, 51, 51) 10px 0 40px,  rgb(51, 51, 51) -10px 0 40px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    height: 90%;
+    margin: 35px auto;
+    min-width: 320px;
+    max-width: 1500px;
+    padding: 40px;
+    width: 100%;
+}
+
+/*Table Styles*/
+table.schedule {
+    border: 8px solid rgb(107, 71, 107);
+    border-collapse: collapse;
+    font-family: Arial, Veranda, sans-serif;
+    width: 100%;
+}
+
+table.schedule th, table.schedule td {
+    border: 1px solid rgb(128,128,128);
+    padding: 5px;
+    vertical-align: top;
+}
+
+/* Table Caption Styles */
+
+table.schedule caption {
+    caption-side: bottom;
+    text-align: left;
+    padding: 20px 0;
+    font-variant: normal;
+    font-style: italic;
+}
+
+
+/*Table Header Styles*/
+table.schedule thead {
+    background: rgb(107, 71, 107);
+    color: white;
+    font-size: 1.5em;
+    font-variant: all-petite-caps;
+}
+
+table.schedule thead tr th {
+    height: 60px;
+    padding-top: 10px;
+    /*vertical-align: bottom;*/
+}
+
+table.schedule thead tr th:nth-of-type(7), table.schedule thead tr th:nth-of-type(8) {
+    background: rgb(70, 34, 70);
+    color: white;
+}
+
+/* Table Column Styles */
+
+col.timeColumn {
+    width: 10%;
+    background-color: rgb(238, 216, 126);
+}
+
+col.weekdayColumns {
+    width: 11%;
+    background-color: white;
+}
+
+col.weekendColumns {
+    width: 17%;
+    background-color: rgb(255, 231, 255);
+}
+
+/*Table Footer*/
+
+table.schedule tfoot {
+    background: rgb(107, 71, 107);
+    color: white;
+}
