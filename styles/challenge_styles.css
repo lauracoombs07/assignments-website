@@ -60,6 +60,12 @@ a:active, a:hover {
     filter: saturate(0.9);
 }
 
+#arrays img {
+    height: 500px;
+    width: 100%;
+    filter: saturate(0.9);
+}
+
 #komatsu_link {
     /*float: left;*/
     /*padding-left: 20px;*/
