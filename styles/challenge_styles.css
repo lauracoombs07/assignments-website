@@ -65,7 +65,13 @@ a:active, a:hover {
     width: 90%;
     filter: saturate(0.9);
 }
+
 #national-pet-competition img {
+    height: 500px;
+    width: 90%;
+    filter: saturate(0.9);
+}
+#matching img {
     height: 500px;
     width: 90%;
     filter: saturate(0.9);
